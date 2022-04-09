@@ -1,0 +1,99 @@
+.big-tittel {
+  color: rgb(245, 218, 218);
+  font-weight: bold;
+  letter-spacing: 2px;
+  animation: transitionIn 1s;
+}
+.small-tittel {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  animation: transitionIn 0.5s;
+}
+form input {
+  outline: none;
+  padding: 18px 20%;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+  background: rgba(250, 250, 250, 0.705);
+  border-radius: 15px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-size: 15px;
+  animation: transition 1s;
+  letter-spacing: 1px;
+}
+::placeholder {
+  color: #8b8686;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.containe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 20%;
+  border-radius: 20px;
+  background: rgba(250, 250, 250, 0.733);
+  box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+  font-family: "Nunito Sans", sans-serif;
+  animation: transitionIn 1s;
+}
+.city-name {
+  font-size: 27px;
+  font-weight: 900;
+}
+.city-temp {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-top: 12px;
+  color: #1e2432;
+  text-align: center;
+  font-weight: bold;
+}
+sup {
+  font-size: 0.5em;
+}
+
+.city-state {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+  font-weight: 900;
+}
+.city-name sup {
+  padding: 0.2em 0.6em;
+  margin-left: 0.2em;
+  border-radius: 30px;
+  color: #fff;
+  background: #ff8c00;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-city {
+  width: 100px;
+  height: 100px;
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-30deg);
+    transform: translateY(-30px);
+  }
+}
+@keyframes transition {
+  from {
+    opacity: 0;
+    transform: rotateX(-30deg);
+    transform: translateY(30px);
+  }
+}
